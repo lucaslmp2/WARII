@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cbii1q8riw15f"
+path="res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Reload - 1.ogg-313558c244551ab961786d29d1736e7d.oggvorbisstr"
+
+[deps]
+
+source_file="res://JDSherbert - FirearmFX - Walther P38 SFX Pack (FREE)/Free/Stereo/ogg/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Reload - 1.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Reload - 1.ogg-313558c244551ab961786d29d1736e7d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
