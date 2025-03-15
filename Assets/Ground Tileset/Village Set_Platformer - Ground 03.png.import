@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp4f7l2pc2ogt"
-path="res://.godot/imported/Village Set_Platformer - Ground 03.png-0a38d1929e568a1e2f5351d250f0d7d3.ctex"
+path="res://.godot/imported/Village Set_Platformer - Ground 03.png-a15123a219d127a38bbbc7a2c707dfe4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Ground Tileset/Village Set_Platformer - Ground 03.png"
-dest_files=["res://.godot/imported/Village Set_Platformer - Ground 03.png-0a38d1929e568a1e2f5351d250f0d7d3.ctex"]
+source_file="res://Assets/Ground Tileset/Village Set_Platformer - Ground 03.png"
+dest_files=["res://.godot/imported/Village Set_Platformer - Ground 03.png-a15123a219d127a38bbbc7a2c707dfe4.ctex"]
 
 [params]
 

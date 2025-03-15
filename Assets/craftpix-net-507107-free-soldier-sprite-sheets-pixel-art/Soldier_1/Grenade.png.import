@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buo1kx1pr7bsl"
-path="res://.godot/imported/Grenade.png-0ef463107182bd1f236a9c5cb28b937f.ctex"
+path="res://.godot/imported/Grenade.png-5a765b8debb164838abee98c90b2f49d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Grenade.png"
-dest_files=["res://.godot/imported/Grenade.png-0ef463107182bd1f236a9c5cb28b937f.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Grenade.png"
+dest_files=["res://.godot/imported/Grenade.png-5a765b8debb164838abee98c90b2f49d.ctex"]
 
 [params]
 

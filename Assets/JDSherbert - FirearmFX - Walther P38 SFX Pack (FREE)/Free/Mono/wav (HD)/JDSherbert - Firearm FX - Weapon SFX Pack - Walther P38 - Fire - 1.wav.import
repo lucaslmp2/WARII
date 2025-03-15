@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ep1ve13pis3s"
-path="res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Fire - 1.wav-3fc4ee3214032834e5e778c3ab9cdf2c.sample"
+path="res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Fire - 1.wav-5044d705d197b539a81fa1617caa4b5f.sample"
 
 [deps]
 
-source_file="res://JDSherbert - FirearmFX - Walther P38 SFX Pack (FREE)/Free/Mono/wav (HD)/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Fire - 1.wav"
-dest_files=["res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Fire - 1.wav-3fc4ee3214032834e5e778c3ab9cdf2c.sample"]
+source_file="res://Assets/JDSherbert - FirearmFX - Walther P38 SFX Pack (FREE)/Free/Mono/wav (HD)/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Fire - 1.wav"
+dest_files=["res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Fire - 1.wav-5044d705d197b539a81fa1617caa4b5f.sample"]
 
 [params]
 

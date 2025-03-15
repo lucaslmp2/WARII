@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0u808nm0p744"
-path="res://.godot/imported/wheels.png-2bfc6921f39daa69712899a4549875eb.ctex"
+path="res://.godot/imported/wheels.png-1d32bdcc2887dcf40a3345b566bede00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War4/Bright/wheels.png"
-dest_files=["res://.godot/imported/wheels.png-2bfc6921f39daa69712899a4549875eb.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War4/Bright/wheels.png"
+dest_files=["res://.godot/imported/wheels.png-1d32bdcc2887dcf40a3345b566bede00.ctex"]
 
 [params]
 

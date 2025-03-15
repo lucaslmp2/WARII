@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rwuqrujwmr30"
-path="res://.godot/imported/8.png-15e5569849fd1aa90ba7976f2eb0bcf1.ctex"
+path="res://.godot/imported/8.png-33629166a455c33d52c1f568ecb4ed7f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Quest Complete/8.png"
-dest_files=["res://.godot/imported/8.png-15e5569849fd1aa90ba7976f2eb0bcf1.ctex"]
+source_file="res://Assets/Quest Complete/8.png"
+dest_files=["res://.godot/imported/8.png-33629166a455c33d52c1f568ecb4ed7f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://w4xkbtkr2rim"
-path="res://.godot/imported/11.png-165ee41f43bdbad90f0ea830c3d00aef.ctex"
+path="res://.godot/imported/11.png-f7e2c9401158aa54bb3b21aa57c0ffaa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bonfire/11.png"
-dest_files=["res://.godot/imported/11.png-165ee41f43bdbad90f0ea830c3d00aef.ctex"]
+source_file="res://Assets/Bonfire/11.png"
+dest_files=["res://.godot/imported/11.png-f7e2c9401158aa54bb3b21aa57c0ffaa.ctex"]
 
 [params]
 

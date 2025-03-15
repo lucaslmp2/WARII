@@ -1,0 +1,77 @@
+[gd_scene load_steps=10 format=3 uid="uid://bf8eeimykmumi"]
+
+[ext_resource type="Texture2D" uid="uid://dwtqcpc8xywv2" path="res://Assets/War/tileset/wmremove-transformed-removebg-preview (2).png" id="1_g0whv"]
+[ext_resource type="Texture2D" uid="uid://c7ohue2mk7oix" path="res://Assets/War/tileset/wmremove-transformed-removebg-preview (1).png" id="2_w8iu5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78gtw"]
+atlas = ExtResource("1_g0whv")
+region = Rect2(0, 0, 500, 500)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4txnv"]
+atlas = ExtResource("2_w8iu5")
+region = Rect2(0, 0, 500, 500)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1an8d"]
+atlas = ExtResource("1_g0whv")
+region = Rect2(0, 500, 500, 500)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_67t8a"]
+atlas = ExtResource("1_g0whv")
+region = Rect2(0, 0, 500, 500)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dv05v"]
+atlas = ExtResource("1_g0whv")
+region = Rect2(0, 500, 500, 500)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cq17d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78gtw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4txnv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1an8d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4txnv")
+}],
+"loop": true,
+"name": &"atirando",
+"speed": 18.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_67t8a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dv05v")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 3.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_t5h6w"]
+radius = 36.0
+height = 124.0
+
+[node name="Soldado_artilheiro" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-18, -9)
+scale = Vector2(0.244, 0.28)
+sprite_frames = SubResource("SpriteFrames_cq17d")
+animation = &"atirando"
+autoplay = "idle"
+frame_progress = 0.0948659
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_t5h6w")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(-339, -1)

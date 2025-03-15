@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqgvq3bk5lko4"
-path="res://.godot/imported/bricks1.png-d24bee12e086f481138d20dade1952a2.ctex"
+path="res://.godot/imported/bricks1.png-25ded3967a39a7cfd2e14e6fb2648ee2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War3/Bright/bricks1.png"
-dest_files=["res://.godot/imported/bricks1.png-d24bee12e086f481138d20dade1952a2.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War3/Bright/bricks1.png"
+dest_files=["res://.godot/imported/bricks1.png-25ded3967a39a7cfd2e14e6fb2648ee2.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rktk2fgftrek"
-path="res://.godot/imported/5.png-07a81cf20c4189a62ef90b8e003cfb93.ctex"
+path="res://.godot/imported/5.png-028c910fe3fcffe02c912f8ddea77f40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Heal/5.png"
-dest_files=["res://.godot/imported/5.png-07a81cf20c4189a62ef90b8e003cfb93.ctex"]
+source_file="res://Assets/Heal/5.png"
+dest_files=["res://.godot/imported/5.png-028c910fe3fcffe02c912f8ddea77f40.ctex"]
 
 [params]
 

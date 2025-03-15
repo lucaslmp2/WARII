@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1fb83i2xnyo2"
-path="res://.godot/imported/7.png-bdd9393409f3901521ddfc7d7977bd8d.ctex"
+path="res://.godot/imported/7.png-27e99b33ec2afa308c24148f506e7d6a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GasBurner/7.png"
-dest_files=["res://.godot/imported/7.png-bdd9393409f3901521ddfc7d7977bd8d.ctex"]
+source_file="res://Assets/GasBurner/7.png"
+dest_files=["res://.godot/imported/7.png-27e99b33ec2afa308c24148f506e7d6a.ctex"]
 
 [params]
 

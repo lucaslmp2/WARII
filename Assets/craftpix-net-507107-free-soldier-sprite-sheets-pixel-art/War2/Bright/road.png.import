@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgonkpu1gq1fu"
-path="res://.godot/imported/road.png-f9c5e0c2b0303bb40a5c95cb6d49a353.ctex"
+path="res://.godot/imported/road.png-37b358aae061a5f23210403f9e239ab4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War2/Bright/road.png"
-dest_files=["res://.godot/imported/road.png-f9c5e0c2b0303bb40a5c95cb6d49a353.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War2/Bright/road.png"
+dest_files=["res://.godot/imported/road.png-37b358aae061a5f23210403f9e239ab4.ctex"]
 
 [params]
 

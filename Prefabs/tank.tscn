@@ -1,8 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://djxjxl5p08dcu"]
+[gd_scene load_steps=14 format=3 uid="uid://djxjxl5p08dcu"]
 
-[ext_resource type="Texture2D" uid="uid://dainxytymlubb" path="res://Assets/War/tileset/tank_statico2.png" id="1_gfpjd"]
 [ext_resource type="Texture2D" uid="uid://da1xd1fj11628" path="res://Assets/War/tileset/tank_statico.png" id="2_ai1id"]
-[ext_resource type="Texture2D" uid="uid://62k088fuxy51" path="res://Assets/War/tileset/tank_statico2tiro (1).png" id="4_o42ju"]
+[ext_resource type="Texture2D" uid="uid://dpnbobg2bidab" path="res://Assets/War/tileset/tank_statico2 (1).png" id="2_bl6ex"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5r5mu"]
 radius = 60.0
@@ -12,37 +11,37 @@ height = 222.0
 atlas = ExtResource("2_ai1id")
 region = Rect2(0, 0, 744, 335)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_b3tbv"]
-atlas = ExtResource("1_gfpjd")
+[sub_resource type="AtlasTexture" id="AtlasTexture_bp2up"]
+atlas = ExtResource("2_bl6ex")
 region = Rect2(0, 0, 744, 335)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_jgbdo"]
-atlas = ExtResource("1_gfpjd")
-region = Rect2(0, 335, 744, 335)
+[sub_resource type="AtlasTexture" id="AtlasTexture_nl2b8"]
+atlas = ExtResource("2_bl6ex")
+region = Rect2(744, 0, 744, 335)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_2xp7j"]
-atlas = ExtResource("1_gfpjd")
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfbpr"]
+atlas = ExtResource("2_bl6ex")
 region = Rect2(0, 670, 744, 335)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_k8gwv"]
-atlas = ExtResource("1_gfpjd")
-region = Rect2(0, 1005, 744, 335)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_oy1ci"]
-atlas = ExtResource("4_o42ju")
+[sub_resource type="AtlasTexture" id="AtlasTexture_37hfo"]
+atlas = ExtResource("2_bl6ex")
 region = Rect2(0, 0, 744, 335)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_7t68k"]
-atlas = ExtResource("4_o42ju")
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpdf3"]
+atlas = ExtResource("2_bl6ex")
+region = Rect2(744, 0, 744, 335)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yltsd"]
+atlas = ExtResource("2_bl6ex")
 region = Rect2(0, 335, 744, 335)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_fhdyf"]
-atlas = ExtResource("4_o42ju")
-region = Rect2(0, 670, 744, 335)
+[sub_resource type="AtlasTexture" id="AtlasTexture_64dmj"]
+atlas = ExtResource("2_bl6ex")
+region = Rect2(744, 335, 744, 335)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_u6ki3"]
-atlas = ExtResource("4_o42ju")
-region = Rect2(0, 1005, 744, 335)
+[sub_resource type="AtlasTexture" id="AtlasTexture_6rcy2"]
+atlas = ExtResource("2_bl6ex")
+region = Rect2(0, 670, 744, 335)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ejfen"]
 animations = [{
@@ -56,16 +55,13 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_b3tbv")
+"texture": SubResource("AtlasTexture_bp2up")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_jgbdo")
+"texture": SubResource("AtlasTexture_nl2b8")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_2xp7j")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_k8gwv")
+"texture": SubResource("AtlasTexture_lfbpr")
 }],
 "loop": true,
 "name": &"runnig",
@@ -73,16 +69,19 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_oy1ci")
+"texture": SubResource("AtlasTexture_37hfo")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_7t68k")
+"texture": SubResource("AtlasTexture_gpdf3")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_fhdyf")
+"texture": SubResource("AtlasTexture_yltsd")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_u6ki3")
+"texture": SubResource("AtlasTexture_64dmj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6rcy2")
 }],
 "loop": true,
 "name": &"tiro",
@@ -104,6 +103,8 @@ scale = Vector2(0.360215, 0.410448)
 sprite_frames = SubResource("SpriteFrames_ejfen")
 animation = &"tiro"
 autoplay = "tiro"
+frame = 1
+frame_progress = 0.561114
 
 [node name="Marker2D" type="Marker2D" parent="Tank"]
-position = Vector2(10, 60)
+position = Vector2(27, 60)

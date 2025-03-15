@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c23a01ksnuxa3"
-path="res://.godot/imported/houses4.png-c70e84c01b358a10b568ce7a14ed41b9.ctex"
+path="res://.godot/imported/houses4.png-5ed618b39d1451a40bb3d5d7c6b10aa6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War2/Pale/houses4.png"
-dest_files=["res://.godot/imported/houses4.png-c70e84c01b358a10b568ce7a14ed41b9.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War2/Pale/houses4.png"
+dest_files=["res://.godot/imported/houses4.png-5ed618b39d1451a40bb3d5d7c6b10aa6.ctex"]
 
 [params]
 

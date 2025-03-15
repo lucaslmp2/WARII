@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjrnql8bikib8"
-path="res://.godot/imported/fence.png-4013337352a133743d9b30e0564848d1.ctex"
+path="res://.godot/imported/fence.png-abf5d82935bcd3fffcb4013120ecf6e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War1/Bright/fence.png"
-dest_files=["res://.godot/imported/fence.png-4013337352a133743d9b30e0564848d1.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War1/Bright/fence.png"
+dest_files=["res://.godot/imported/fence.png-abf5d82935bcd3fffcb4013120ecf6e3.ctex"]
 
 [params]
 

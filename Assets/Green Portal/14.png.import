@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djmw5d51q0nd8"
-path="res://.godot/imported/14.png-96506b505348477aa0891df75bd469c0.ctex"
+path="res://.godot/imported/14.png-69795ffd5bc5b4a060826802f22c0673.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Green Portal/14.png"
-dest_files=["res://.godot/imported/14.png-96506b505348477aa0891df75bd469c0.ctex"]
+source_file="res://Assets/Green Portal/14.png"
+dest_files=["res://.godot/imported/14.png-69795ffd5bc5b4a060826802f22c0673.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs74dt13g4fcb"
-path="res://.godot/imported/Recharge.png-9bef9fa19cabc250a604843ef8ca1199.ctex"
+path="res://.godot/imported/Recharge.png-13eccf59996a8e2121c3f011fafe3190.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_3/Recharge.png"
-dest_files=["res://.godot/imported/Recharge.png-9bef9fa19cabc250a604843ef8ca1199.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_3/Recharge.png"
+dest_files=["res://.godot/imported/Recharge.png-13eccf59996a8e2121c3f011fafe3190.ctex"]
 
 [params]
 

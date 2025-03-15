@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br00i57sisywo"
-path="res://.godot/imported/Idle.png-52d81f68c31cd5ea2db8a9833e054ddf.ctex"
+path="res://.godot/imported/Idle.png-182f23eea0d22a3b101da0ee428a2138.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-52d81f68c31cd5ea2db8a9833e054ddf.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-182f23eea0d22a3b101da0ee428a2138.ctex"]
 
 [params]
 

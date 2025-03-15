@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djh468gy1npqh"
-path="res://.godot/imported/2.png-ba1b148627ea7c9da9b7431c5e7a7140.ctex"
+path="res://.godot/imported/2.png-8121d2ddb85173f2eb3b691420caf020.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shield Aura/2.png"
-dest_files=["res://.godot/imported/2.png-ba1b148627ea7c9da9b7431c5e7a7140.ctex"]
+source_file="res://Assets/Shield Aura/2.png"
+dest_files=["res://.godot/imported/2.png-8121d2ddb85173f2eb3b691420caf020.ctex"]
 
 [params]
 

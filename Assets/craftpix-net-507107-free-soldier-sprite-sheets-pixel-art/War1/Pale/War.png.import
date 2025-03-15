@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpt0jcuc1wol6"
-path="res://.godot/imported/War.png-4a7563b1787e042d4630205d048322f4.ctex"
+path="res://.godot/imported/War.png-53bd6aaf6ff83fca20032c935fd8da31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War1/Pale/War.png"
-dest_files=["res://.godot/imported/War.png-4a7563b1787e042d4630205d048322f4.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War1/Pale/War.png"
+dest_files=["res://.godot/imported/War.png-53bd6aaf6ff83fca20032c935fd8da31.ctex"]
 
 [params]
 

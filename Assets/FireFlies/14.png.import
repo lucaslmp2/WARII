@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c71ukt17kfnf0"
-path="res://.godot/imported/14.png-0e762163ec3175a0737121593e1f05ca.ctex"
+path="res://.godot/imported/14.png-1177d627461c475eb1e5030ce5373b5e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FireFlies/14.png"
-dest_files=["res://.godot/imported/14.png-0e762163ec3175a0737121593e1f05ca.ctex"]
+source_file="res://Assets/FireFlies/14.png"
+dest_files=["res://.godot/imported/14.png-1177d627461c475eb1e5030ce5373b5e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://netfbkmnipgp"
-path="res://.godot/imported/sky.png-342959bc29312b082e1ecd5a70631792.ctex"
+path="res://.godot/imported/sky.png-3ebe47667c489518ba43b5bcf6275854.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War2/Pale/sky.png"
-dest_files=["res://.godot/imported/sky.png-342959bc29312b082e1ecd5a70631792.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War2/Pale/sky.png"
+dest_files=["res://.godot/imported/sky.png-3ebe47667c489518ba43b5bcf6275854.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ylv1r5p0hlkn"
-path="res://.godot/imported/crater2.png-e9b27e85c20ea37594018981f560bda3.ctex"
+path="res://.godot/imported/crater2.png-45186f948c016bce744b2afc8340df5e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War1/Bright/crater2.png"
-dest_files=["res://.godot/imported/crater2.png-e9b27e85c20ea37594018981f560bda3.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War1/Bright/crater2.png"
+dest_files=["res://.godot/imported/crater2.png-45186f948c016bce744b2afc8340df5e.ctex"]
 
 [params]
 

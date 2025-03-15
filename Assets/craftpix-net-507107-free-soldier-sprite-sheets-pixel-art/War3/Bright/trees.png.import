@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbhscwg01xnfg"
-path="res://.godot/imported/trees.png-dfe0e09450160a39ce28e66e0855e022.ctex"
+path="res://.godot/imported/trees.png-5b4bbecb5b58a6808c77b8948ce8a5b7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War3/Bright/trees.png"
-dest_files=["res://.godot/imported/trees.png-dfe0e09450160a39ce28e66e0855e022.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War3/Bright/trees.png"
+dest_files=["res://.godot/imported/trees.png-5b4bbecb5b58a6808c77b8948ce8a5b7.ctex"]
 
 [params]
 

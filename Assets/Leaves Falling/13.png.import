@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwdcldpc7ccag"
-path="res://.godot/imported/13.png-cba78a83ba6f0956e5b0bec652319d3d.ctex"
+path="res://.godot/imported/13.png-d5fb26b8366851f1a6644b987e27c028.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Leaves Falling/13.png"
-dest_files=["res://.godot/imported/13.png-cba78a83ba6f0956e5b0bec652319d3d.ctex"]
+source_file="res://Assets/Leaves Falling/13.png"
+dest_files=["res://.godot/imported/13.png-d5fb26b8366851f1a6644b987e27c028.ctex"]
 
 [params]
 

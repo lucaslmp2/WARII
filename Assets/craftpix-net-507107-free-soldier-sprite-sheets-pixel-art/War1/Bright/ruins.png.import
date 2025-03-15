@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq0h2mj1upftn"
-path="res://.godot/imported/ruins.png-aa775932e2ea02a384d2931f7adca2bf.ctex"
+path="res://.godot/imported/ruins.png-0c26855e83644c6669244d3135a23d7d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War1/Bright/ruins.png"
-dest_files=["res://.godot/imported/ruins.png-aa775932e2ea02a384d2931f7adca2bf.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War1/Bright/ruins.png"
+dest_files=["res://.godot/imported/ruins.png-0c26855e83644c6669244d3135a23d7d.ctex"]
 
 [params]
 

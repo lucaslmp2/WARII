@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl4qqc3nhxtyr"
-path="res://.godot/imported/Village Set_Background - Layer 03.png-8e0dfe2c07ebed7d143e251b2855cf2b.ctex"
+path="res://.godot/imported/Village Set_Background - Layer 03.png-4ff0d05c60ee3482b976560ff23c2106.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Foreground and Background/Village Set_Background - Layer 03.png"
-dest_files=["res://.godot/imported/Village Set_Background - Layer 03.png-8e0dfe2c07ebed7d143e251b2855cf2b.ctex"]
+source_file="res://Assets/Foreground and Background/Village Set_Background - Layer 03.png"
+dest_files=["res://.godot/imported/Village Set_Background - Layer 03.png-4ff0d05c60ee3482b976560ff23c2106.ctex"]
 
 [params]
 

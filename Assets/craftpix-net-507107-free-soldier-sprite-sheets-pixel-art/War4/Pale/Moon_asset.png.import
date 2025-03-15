@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgnvnr4ed2tnw"
-path="res://.godot/imported/Moon_asset.png-49734e2867976a8fe356855e54b5fd59.ctex"
+path="res://.godot/imported/Moon_asset.png-0f45aeca5fa7c04dcd352b43a0dd3591.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War4/Pale/Moon_asset.png"
-dest_files=["res://.godot/imported/Moon_asset.png-49734e2867976a8fe356855e54b5fd59.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War4/Pale/Moon_asset.png"
+dest_files=["res://.godot/imported/Moon_asset.png-0f45aeca5fa7c04dcd352b43a0dd3591.ctex"]
 
 [params]
 

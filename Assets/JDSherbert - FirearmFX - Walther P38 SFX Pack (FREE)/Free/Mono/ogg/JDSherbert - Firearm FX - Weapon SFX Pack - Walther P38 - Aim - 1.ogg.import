@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bn4xfttpke8e2"
-path="res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Aim - 1.ogg-b92b402fe6b2f79d71b2864a63f1b5c1.oggvorbisstr"
+path="res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Aim - 1.ogg-256ae49301d22907d18516620368c60c.oggvorbisstr"
 
 [deps]
 
-source_file="res://JDSherbert - FirearmFX - Walther P38 SFX Pack (FREE)/Free/Mono/ogg/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Aim - 1.ogg"
-dest_files=["res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Aim - 1.ogg-b92b402fe6b2f79d71b2864a63f1b5c1.oggvorbisstr"]
+source_file="res://Assets/JDSherbert - FirearmFX - Walther P38 SFX Pack (FREE)/Free/Mono/ogg/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Aim - 1.ogg"
+dest_files=["res://.godot/imported/JDSherbert - Firearm FX - Weapon SFX Pack - Walther P38 - Aim - 1.ogg-256ae49301d22907d18516620368c60c.oggvorbisstr"]
 
 [params]
 

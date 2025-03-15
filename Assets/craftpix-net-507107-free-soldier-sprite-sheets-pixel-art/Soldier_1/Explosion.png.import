@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2frde2yo4826"
-path="res://.godot/imported/Explosion.png-9f087b3b8dda9db10062622b6aab7def.ctex"
+path="res://.godot/imported/Explosion.png-c440bcd62567049987c8e06c572b72ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Explosion.png"
-dest_files=["res://.godot/imported/Explosion.png-9f087b3b8dda9db10062622b6aab7def.ctex"]
+source_file="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Explosion.png"
+dest_files=["res://.godot/imported/Explosion.png-c440bcd62567049987c8e06c572b72ed.ctex"]
 
 [params]
 
