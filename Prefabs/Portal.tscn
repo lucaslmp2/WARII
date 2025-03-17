@@ -1,8 +1,8 @@
 [gd_scene load_steps=218 format=3 uid="uid://hel0tyk1vpnp"]
 
 [ext_resource type="Texture2D" uid="uid://bbwbno7l88pej" path="res://Assets/Portals v2/1.png" id="1_2odlb"]
+[ext_resource type="Script" path="res://Scripts/area_2d.gd" id="1_mxvir"]
 [ext_resource type="Texture2D" uid="uid://dwh6yqg4ivt0f" path="res://Assets/Butterfly/1.png" id="1_p13gl"]
-[ext_resource type="Script" path="res://Scripts/portal.gd" id="1_unlc6"]
 [ext_resource type="Texture2D" uid="uid://cn5qmro4jtmr7" path="res://Assets/Portals v2/2.png" id="2_jq0br"]
 [ext_resource type="Texture2D" uid="uid://dsv85cljbut31" path="res://Assets/Butterfly/2.png" id="2_jtqxr"]
 [ext_resource type="Texture2D" uid="uid://bwd1a0h1oagrq" path="res://Assets/Butterfly/3.png" id="3_h4v7k"]
@@ -940,9 +940,9 @@ animations = [{
 radius = 44.926
 
 [node name="Informação" type="Node2D"]
-script = ExtResource("1_unlc6")
 
 [node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("1_mxvir")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D"]
 position = Vector2(131, 122)

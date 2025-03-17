@@ -353,7 +353,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Player" type="CharacterBody2D" groups=["player"]]
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
 collision_mask = 15
 script = ExtResource("1_wky2u")
 
@@ -361,7 +361,7 @@ script = ExtResource("1_wky2u")
 position = Vector2(0, -12)
 shape = SubResource("CapsuleShape2D_d6voe")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." groups=["Player"]]
 position = Vector2(-1.13687e-13, -26)
 scale = Vector2(1.61594, 1.72768)
 sprite_frames = SubResource("SpriteFrames_mqnxd")

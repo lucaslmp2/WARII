@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://c8k2bpnf2min2"]
+
+[ext_resource type="Texture2D" uid="uid://h7o65mygb43b" path="res://Assets/War/tileset/wmremove-transformed__2_-removebg-preview.png" id="1_ri0n0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_88qfm"]
+atlas = ExtResource("1_ri0n0")
+region = Rect2(507, 0, 169, 349)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vfkws"]
+atlas = ExtResource("1_ri0n0")
+region = Rect2(43, 0, 166, 353)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cvfgx"]
+atlas = ExtResource("1_ri0n0")
+region = Rect2(362, 0, 161, 353)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ecx13"]
+atlas = ExtResource("1_ri0n0")
+region = Rect2(198, 0, 169, 353)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yfqfr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_88qfm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vfkws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cvfgx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ecx13")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qmn5d"]
+height = 68.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+collision_mask = 3
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1.89494, -3.6705)
+scale = Vector2(0.297101, 0.311344)
+sprite_frames = SubResource("SpriteFrames_yfqfr")
+animation = &"idle"
+frame_progress = 0.708019
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, -3)
+shape = SubResource("CapsuleShape2D_qmn5d")

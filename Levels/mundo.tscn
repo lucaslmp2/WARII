@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://b1eecvsfqs24r"]
+[gd_scene load_steps=38 format=4 uid="uid://b1eecvsfqs24r"]
 
 [ext_resource type="PackedScene" uid="uid://bf8eeimykmumi" path="res://Prefabs/soldado_artilheiro.tscn" id="1_5mxul"]
 [ext_resource type="Texture2D" uid="uid://cxplfr1rf0jck" path="res://Assets/War/tileset/brilho.png" id="1_oso7q"]
@@ -16,6 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://b4lff2uba6lvi" path="res://player/player_inicial.tscn" id="15_4wtv3"]
 [ext_resource type="PackedScene" uid="uid://d0tle3u3ovcct" path="res://player/npc_inicial.tscn" id="15_p5xkc"]
 [ext_resource type="Texture2D" uid="uid://wx2awwl0oeop" path="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War4/Bright/sky.png" id="16_mow6w"]
+[ext_resource type="PackedScene" uid="uid://c8k2bpnf2min2" path="res://Prefabs/velho.tscn" id="17_2kpd7"]
 [ext_resource type="Texture2D" uid="uid://de6063h1h0b0p" path="res://Assets/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/War4/Bright/Moon_asset.png" id="17_4d34m"]
 [ext_resource type="PackedScene" uid="uid://cal3ocwlaqowp" path="res://Prefabs/area_2d.tscn" id="19_7svkl"]
 [ext_resource type="PackedScene" uid="uid://hel0tyk1vpnp" path="res://Prefabs/Portal.tscn" id="20_knoxj"]
@@ -6579,9 +6580,16 @@ position = Vector2(413, 424)
 [node name="NpcInicial" parent="." instance=ExtResource("15_p5xkc")]
 position = Vector2(2022, 610)
 
+[node name="Velho" parent="." instance=ExtResource("17_2kpd7")]
+position = Vector2(437, 593)
+
+[node name="Area2D" parent="." groups=["Player", "player"] instance=ExtResource("19_7svkl")]
+position = Vector2(2795, 610)
+collision_layer = 4
+
 [node name="Player" parent="." instance=ExtResource("15_4wtv3")]
-position = Vector2(204, 537)
-collision_mask = 6
+position = Vector2(2721, 605)
+collision_mask = 14
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 visible = false
@@ -6605,7 +6613,3 @@ motion_mirroring = Vector2(5760, 0)
 position = Vector2(701.25, 429.375)
 scale = Vector2(1.5, 1.5)
 texture = ExtResource("17_4d34m")
-
-[node name="Area2D" parent="." instance=ExtResource("19_7svkl")]
-position = Vector2(2852, 655)
-collision_layer = 4

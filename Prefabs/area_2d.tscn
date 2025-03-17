@@ -1,117 +1,91 @@
-[gd_scene load_steps=16 format=3 uid="uid://cal3ocwlaqowp"]
+[gd_scene load_steps=14 format=3 uid="uid://cal3ocwlaqowp"]
 
 [ext_resource type="Texture2D" uid="uid://c4mrnibxmwskh" path="res://Assets/War/tileset/vecteezy_land-mine-creative-icon-design_16012316.png" id="1_gpe1p"]
+[ext_resource type="Script" path="res://Scripts/MinaTerrestre.gd" id="1_ogcdd"]
 [ext_resource type="Texture2D" uid="uid://bumun1e5l3n8v" path="res://Assets/War/tileset/wmremove-transformed__1_-removebg-preview.png" id="2_jwiat"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_oeqnd"]
-atlas = ExtResource("1_gpe1p")
-region = Rect2(0, 0, 1920, 1920)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_cfnoc"]
-atlas = ExtResource("1_gpe1p")
-region = Rect2(1920, 0, 1920, 1920)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_6hhh2"]
-atlas = ExtResource("1_gpe1p")
-region = Rect2(0, 1920, 1920, 1920)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_7cji8"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_oeqnd")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_cfnoc")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_6hhh2")
-}],
-"loop": false,
-"name": &"explosão",
-"speed": 5.0
-}]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_anmyu"]
-size = Vector2(44, 23)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_2bsl2"]
-size = Vector2(11, 3)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_d8snn"]
-atlas = ExtResource("2_jwiat")
-region = Rect2(656, 0, 82, 84)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_tixmp"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_evsv3"]
 atlas = ExtResource("2_jwiat")
 region = Rect2(296, 0, 148, 168)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_pwh2q"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_066kv"]
 atlas = ExtResource("2_jwiat")
 region = Rect2(0, 168, 148, 168)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_hd0ij"]
-atlas = ExtResource("2_jwiat")
-region = Rect2(296, 168, 148, 168)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_83rll"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_mu6v3"]
 atlas = ExtResource("2_jwiat")
 region = Rect2(148, 168, 148, 168)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_1ifkd"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_s23rj"]
+atlas = ExtResource("2_jwiat")
+region = Rect2(296, 168, 148, 168)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j75be"]
 atlas = ExtResource("2_jwiat")
 region = Rect2(148, 0, 148, 168)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_0odvj"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_11wxg"]
+atlas = ExtResource("1_gpe1p")
+region = Rect2(0, 0, 1920, 1920)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f0rvn"]
+atlas = ExtResource("1_gpe1p")
+region = Rect2(1920, 0, 1920, 1920)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qcvqh"]
+atlas = ExtResource("1_gpe1p")
+region = Rect2(0, 1920, 1920, 1920)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_23g1m"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_d8snn")
+"texture": SubResource("AtlasTexture_evsv3")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_tixmp")
+"texture": SubResource("AtlasTexture_066kv")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_pwh2q")
+"texture": SubResource("AtlasTexture_mu6v3")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_hd0ij")
+"texture": SubResource("AtlasTexture_s23rj")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_83rll")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_1ifkd")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_d8snn")
+"texture": SubResource("AtlasTexture_j75be")
 }],
 "loop": false,
 "name": &"fogo",
 "speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11wxg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f0rvn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qcvqh")
+}],
+"loop": false,
+"name": &"mina",
+"speed": 5.0
 }]
 
-[node name="Area2D" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ppo5"]
+size = Vector2(24, 6)
 
-[node name="MinaTerrestre" type="AnimatedSprite2D" parent="."]
-position = Vector2(3.05176e-05, -0.999992)
-scale = Vector2(0.0382812, 0.0403646)
-sprite_frames = SubResource("SpriteFrames_7cji8")
-animation = &"explosão"
+[node name="Mina" type="CharacterBody2D"]
+script = ExtResource("1_ogcdd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(35, 36)
+scale = Vector2(0.0360677, 0.036849)
+sprite_frames = SubResource("SpriteFrames_23g1m")
+animation = &"mina"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 3.5)
-shape = SubResource("RectangleShape2D_anmyu")
-
-[node name="hurt" type="CollisionShape2D" parent="."]
-position = Vector2(-0.5, -15.5)
-shape = SubResource("RectangleShape2D_2bsl2")
-debug_color = Color(0.991155, 0.0893255, 0, 0.42)
-
-[node name="FogodaMina" type="AnimatedSprite2D" parent="."]
-position = Vector2(-1, -20)
-scale = Vector2(0.277027, 0.220238)
-sprite_frames = SubResource("SpriteFrames_0odvj")
-animation = &"fogo"
-frame = 6
-frame_progress = 1.0
+position = Vector2(35, 21)
+shape = SubResource("RectangleShape2D_5ppo5")
+debug_color = Color(0.987877, 0.0948051, 0.119113, 0.42)

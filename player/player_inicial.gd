@@ -2,13 +2,13 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const WALK_SPEED = 150.0  # Velocidade reduzida ao andar
-const JUMP_VELOCITY = -400.0
-const GRAVITY = 980  
+const JUMP_VELOCITY = -300.0
+const GRAVITY = 980
 
 @onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var camera_2d: Camera2D = $Camera2D
-
+var direction
 var is_attacking = false
 var is_dead = false
 
@@ -40,7 +40,7 @@ func _physics_process(delta: float) -> void:
 		is_attacking = false
 
 	# Movimento (andar ou correr)
-	var direction := Input.get_axis("ui_left", "ui_right")
+	direction = Input.get_axis("ui_left", "ui_right")
 	var walk_left := Input.is_action_pressed("walk_left")
 	var walk_right := Input.is_action_pressed("walk_right")
 	var is_walking := walk_left or walk_right  # Verifica se alguma tecla de andar foi pressionada
@@ -57,7 +57,6 @@ func _physics_process(delta: float) -> void:
 		# Se estiver no chão e não estiver atacando, fique parado
 		if is_on_floor() and not is_attacking:
 			animated_sprite_2d.play("idle")
-
 	move_and_slide()
 
 func die():
